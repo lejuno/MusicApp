@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Alakazan</string>
+    <string name="activity_music_search">Music Finder</string>
+    <string name="activity_history">History</string>
+    <string name="activity_payment">Payment</string>
+    <string name="activity_top_hits">Top Hits</string>
+    <string name="string_button_Search">Let´s search!\</string>
+</resources>

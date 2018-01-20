@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicapp.MainActivity">
+
+    <Button
+        android:id="@+id/id_bt_musicFinder"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:text="@string/string_button_Search"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/id_tx_top_hits"
+        style="@style/StyleCategoryItem"
+        android:background="@color/color_category_top_hits"
+        android:text="@string/activity_top_hits" />
+
+    <TextView
+        android:id="@+id/id_tx_history"
+        style="@style/StyleCategoryItem"
+        android:background="@color/color_category_history"
+        android:text="@string/activity_history" />
+
+    <TextView
+        android:id="@+id/id_tx_payment"
+        style="@style/StyleCategoryItem"
+        android:background="@color/color_category_payment"
+        android:text="@string/activity_payment" />
+</LinearLayout>
