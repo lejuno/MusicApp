@@ -23,8 +23,6 @@ public class Payment extends AppCompatActivity {
             }
         });
 
-
-
         // Buttons
         Button returnButton = (Button) findViewById(R.id.id_button_return);
         returnButton.setOnClickListener(new View.OnClickListener() {

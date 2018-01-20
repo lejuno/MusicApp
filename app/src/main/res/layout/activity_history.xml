@@ -62,6 +62,27 @@
                 style="@style/StyleHistoryItem"
                 android:background="@color/color_list_item_6"
                 android:text="@string/string_history_6" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <Button
+                    android:id="@+id/id_button_return"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/string_return" />
+
+                <Button
+                    android:id="@+id/id_button_search"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/string_search" />
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
