@@ -6,14 +6,69 @@
     android:orientation="vertical"
     tools:context="com.example.android.musicapp.Payment">
 
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:textSize="15sp"
-        android:text="This activity will handle a premium account where users after searching the song desired can buy the song on available market.
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="This activity will handle a premium account where users after searching the song desired can buy the song on available market.
         \nI found the Play Billing Library which is already integrated with Play Store and give plenty of useful features:
         \n    Be connected to Google Play
         \n    Can retrieve existing purchases and subscriptions
-        \n    Has lots of examples of usage."/>
+        \n    Has lots of examples of usage."
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_line" />
+
+            <TextView
+                android:id="@+id/id_found_song"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="@string/string_found_song_example"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/id_buy_song"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/string_buy_this_song"
+                android:layout_margin="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <Button
+                    android:id="@+id/id_button_return"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/string_return" />
+
+                <Button
+                    android:id="@+id/id_button_search"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/string_search" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

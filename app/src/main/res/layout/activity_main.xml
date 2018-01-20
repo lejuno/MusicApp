@@ -16,6 +16,11 @@
             android:layout_height="wrap_content"
             android:text="This is the main activity where all menus will be listed and the application introduction will be shown." />
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_line"></View>
+
         <Button
             android:id="@+id/id_bt_musicFinder"
             android:layout_width="200dp"
