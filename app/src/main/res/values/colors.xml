@@ -7,31 +7,35 @@
     <!-- Background color for app -->
     <color name="color_line">#000000</color>
 
-    <!-- Background color for the numbers category -->
+    <!-- Background color for the my songs category -->
+
+    <color name="color_category_my_songs">#55aafa</color>
+
+    <!-- Background color for the top hits category -->
     <color name="color_category_top_hits">#FD8E09</color>
 
-    <!-- Background color for the family members category -->
+    <!-- Background color for the history  category -->
     <color name="color_category_history">#379237</color>
 
-    <!-- Background color for the colors category -->
+    <!-- Background color for the payment category -->
     <color name="color_category_payment">#8800A0</color>
 
 
-    <!-- Background color for the numbers category -->
+    <!-- Background color for the item 1 -->
     <color name="color_list_item_1">#FD8E09</color>
 
-    <!-- Background color for the family members category -->
+    <!-- Background color for the item 2 -->
     <color name="color_list_item_2">#379237</color>
 
-    <!-- Background color for the colors category -->
+    <!-- Background color for the item 3 -->
     <color name="color_list_item_3">#8800A0</color>
 
-    <!-- Background color for the numbers category -->
+    <!-- Background color for the item 4 -->
     <color name="color_list_item_4">#FD8E09</color>
 
-    <!-- Background color for the family members category -->
+    <!-- Background color for the item 5 -->
     <color name="color_list_item_5">#379237</color>
 
-    <!-- Background color for the colors category -->
+    <!-- Background color for the item 6 -->
     <color name="color_list_item_6">#8800A0</color>
 </resources>

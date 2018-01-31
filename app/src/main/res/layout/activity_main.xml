@@ -7,19 +7,18 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
-
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="This is the main activity where all menus will be listed and the application introduction will be shown." />
+            android:text="@string/string_main_activity_description" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/color_line"></View>
+            android:background="@color/color_line"/>
 
         <Button
             android:id="@+id/id_bt_musicFinder"
@@ -29,6 +28,12 @@
             android:layout_margin="8dp"
             android:text="@string/string_button_Search"
             android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/id_tx_my_songs"
+            style="@style/StyleCategoryItem"
+            android:background="@color/color_category_my_songs"
+            android:text="@string/activity_my_songs" />
 
         <TextView
             android:id="@+id/id_tx_top_hits"

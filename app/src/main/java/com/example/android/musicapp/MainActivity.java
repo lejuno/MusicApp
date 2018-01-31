@@ -1,5 +1,6 @@
 package com.example.android.musicapp;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -14,44 +15,29 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // My Songs Activity
+        setupClickListener(R.id.id_tx_my_songs, MySongsActivity.class);
+
         // Music Finder Activity
-        Button searchButton = (Button) findViewById(R.id.id_bt_musicFinder);
-        // Set onClickListener to go to MusicFinder Activity
-        searchButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent finderIntent = new Intent(MainActivity.this, MusicFinder.class);
-                startActivity(finderIntent);
-            }
-        });
+        setupClickListener(R.id.id_bt_musicFinder, MusicFinderActivity.class);
 
         // Top Hits
-        TextView tvTopHits = (TextView) findViewById(R.id.id_tx_top_hits);
-        tvTopHits.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent topHitsIntent = new Intent(MainActivity.this, TopHits.class);
-                startActivity(topHitsIntent);
-            }
-        });
+        setupClickListener(R.id.id_tx_top_hits, TopHitsActivity.class);
 
-        // History
-        TextView tvHistory = (TextView) findViewById(R.id.id_tx_history);
-        tvHistory.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent historyIntent = new Intent(MainActivity.this, History.class);
-                startActivity(historyIntent);
-            }
-        });
+        // HistoryActivity
+        setupClickListener(R.id.id_tx_history, HistoryActivity.class);
 
-        // Payment
-        TextView tvPayment = (TextView) findViewById(R.id.id_tx_payment);
-        tvPayment.setOnClickListener(new View.OnClickListener() {
+        // PaymentActivity
+        setupClickListener(R.id.id_tx_payment, PaymentActivity.class);
+    }
+
+    private void setupClickListener(int id, final Class<? extends Activity> clazz) {
+        View view = findViewById(id);
+        view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent paymentIntent = new Intent(MainActivity.this, Payment.class);
-                startActivity(paymentIntent);
+                Intent intent = new Intent(MainActivity.this, clazz);
+                startActivity(intent);
             }
         });
     }

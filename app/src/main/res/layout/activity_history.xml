@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.android.musicapp.History">
+    tools:context="com.example.android.musicapp.HistoryActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:text="This activity will display the list of musics already found by this application."
+        android:text="@string/string_history_activity_description"
         android:textSize="15sp" />
 
     <View
@@ -63,26 +63,7 @@
                 android:background="@color/color_list_item_6"
                 android:text="@string/string_history_6" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:padding="8dp">
-
-                <Button
-                    android:id="@+id/id_button_return"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/string_return" />
-
-                <Button
-                    android:id="@+id/id_button_search"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/string_search" />
-            </LinearLayout>
+            <include layout="@layout/layout_button_return_search"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

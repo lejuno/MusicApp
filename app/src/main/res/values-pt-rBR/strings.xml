@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alakazan</string>
+    <string name="activity_music_search">Pesquisa de Música</string>
+    <string name="activity_history">Histórico</string>
+    <string name="activity_payment">Pagamento</string>
+    <string name="string_button_Search">Vamos a procura!</string>
+    <string name="activity_detailed_song">Detalhes da música</string>
+    <string name="string_song_found">Aqui está sua música</string>
+    <string name="string_album">Álbum:</string>
+    <string name="string_artist">Artista/Banda:</string>
+    <string name="string_buy_song">Compre esta música</string>
+    <string name="string_more_details">Veja mais detalhes</string>
+    <string name="string_song_year">Ano:</string>
+    <string name="string_song_composes">Compositor:</string>
+    <string name="string_buy">Comprar</string>
+    <string name="string_return">Voltar</string>
+    <string name="string_detail">Detalhes</string>
+    <string name="string_buy_this_song">Comprar esta música</string>
+    <string name="string_search">Pesquisar</string>
+    <string name="activity_top_hits">Top Hits</string>
+    <string name="activity_my_songs">Minhas Músicas</string>
+</resources>

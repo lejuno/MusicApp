@@ -4,14 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.android.musicapp.DetailedSong">
+    tools:context="com.example.android.musicapp.RandomSongActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:text="This activity will describe in details the input song.
-        \nThe input song can come from History, Top Hits and MusicFinder activities"
+        android:text="@string/string_random_song_activity_description"
         android:textSize="15sp" />
 
     <ScrollView

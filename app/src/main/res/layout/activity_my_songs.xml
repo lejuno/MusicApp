@@ -19,7 +19,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
-                android:text="@string/string_payment_activity_description"
+                android:text="@string/string_my_songs_activity_description"
                 android:textSize="15sp" />
 
             <View
@@ -27,23 +27,7 @@
                 android:layout_height="1dp"
                 android:background="@color/color_line" />
 
-            <TextView
-                android:id="@+id/id_found_song"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_margin="8dp"
-                android:background="@color/colorAccent"
-                android:gravity="center"
-                android:text="@string/string_found_song_example"
-                android:textSize="20sp" />
 
-            <Button
-                android:id="@+id/id_buy_song"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/string_buy_this_song"
-                android:layout_margin="8dp" />
 
             <include layout="@layout/layout_button_return_search"/>
         </LinearLayout>

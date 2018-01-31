@@ -17,20 +17,26 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".History"
-            android:label="@string/activity_history" />
+            android:name=".HistoryActivity"
+            android:label="@string/activity_history"
+            android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".TopHits"
-            android:label="@string/activity_top_hits" />
+            android:name=".TopHitsActivity"
+            android:label="@string/activity_top_hits"
+            android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".Payment"
-            android:label="@string/activity_payment" />
+            android:name=".PaymentActivity"
+            android:label="@string/activity_payment"
+            android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".MusicFinder"
-            android:label="@string/activity_music_search" />
+            android:name=".MusicFinderActivity"
+            android:label="@string/activity_music_search"
+            android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".DetailedSong"
-            android:label="@string/activity_detailed_song" />
+            android:name=".RandomSongActivity"
+            android:label="@string/activity_detailed_song"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MySongsActivity"></activity>
     </application>
 
 </manifest>
