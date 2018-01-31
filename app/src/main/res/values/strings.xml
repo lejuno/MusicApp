@@ -36,9 +36,10 @@
     <string name="string_buy_this_song">Buy this song</string>
     <string name="activity_my_songs">My Songs</string>
     <string name="string_my_songs_activity_description" translatable="false">This activity will hold list of purchased songs and play according to user´s action.</string>
-    <string name="string_random_song_activity_description" translatable="false">"This activity will play a Random Song which is not purchased by the user..         \\nThe random song will be selected from preferences set by the user as preferred singer, band, style, etc. Through a configuration menu (not implemented yet).                      "</string>
+    <string name="string_detailed_song_activity_description" translatable="false">"This activity will play a Random Song which is not purchased by the user..         \\nThe random song will be selected from preferences set by the user as preferred singer, band, style, etc. Through a configuration menu (not implemented yet).                      "</string>
     <string name="string_payment_activity_description" translatable="false">This activity will handle a premium account where users after searching the song desired can buy the song on available market.         \\nI found the Play Billing Library which is already integrated with Play Store and give plenty of useful features:         \\n    Be connected to Google Play         \\n    Can retrieve existing purchases and subscriptions         \\n    Has lots of examples of usage.</string>
     <string name="string_history_activity_description" translatable="false">This activity will display the list of musics already found by this application.</string>
     <string name="string_top_hits_activity_description" translatable="false">This activity will display the top hits of the moments based on a list of most popular songs.</string>
     <string name="string_main_activity_description" translatable="false">This is the main activity where all menus will be listed and the application introduction will be shown.</string>
+    <string name="string_random_song_finder_activity_description" translatable="false">This activity will display the Music searched after pressing the big button on main activity.         \\nIt will also be possible to input music, artist or band names to improve the search system</string>
 </resources>

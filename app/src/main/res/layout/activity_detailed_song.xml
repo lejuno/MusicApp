@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.android.musicapp.RandomSongActivity">
+    tools:context="com.example.android.musicapp.DetailedSongActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:text="@string/string_random_song_activity_description"
+        android:text="@string/string_detailed_song_activity_description"
         android:textSize="15sp" />
 
     <ScrollView

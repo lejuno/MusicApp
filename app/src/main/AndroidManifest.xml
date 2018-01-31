@@ -17,6 +17,10 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".MySongsActivity"
+            android:label="@string/activity_my_songs"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".HistoryActivity"
             android:label="@string/activity_history"
             android:parentActivityName=".MainActivity" />
@@ -29,14 +33,13 @@
             android:label="@string/activity_payment"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".MusicFinderActivity"
+            android:name=".RandomSongFinderActivity"
             android:label="@string/activity_music_search"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".RandomSongActivity"
+            android:name=".DetailedSongActivity"
             android:label="@string/activity_detailed_song"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".MySongsActivity"></activity>
     </application>
 
 </manifest>

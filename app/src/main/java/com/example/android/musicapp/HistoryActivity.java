@@ -14,16 +14,16 @@ public class HistoryActivity extends AppCompatActivity {
         setContentView(R.layout.activity_history);
 
         // Should Send Action to Detail View with specific Song Names
-        setupClickListener(R.id.id_item_1, RandomSongActivity.class);
-        setupClickListener(R.id.id_item_2, RandomSongActivity.class);
-        setupClickListener(R.id.id_item_3, RandomSongActivity.class);
-        setupClickListener(R.id.id_item_4, RandomSongActivity.class);
-        setupClickListener(R.id.id_item_5, RandomSongActivity.class);
-        setupClickListener(R.id.id_item_6, RandomSongActivity.class);
+        setupClickListener(R.id.id_item_1, DetailedSongActivity.class);
+        setupClickListener(R.id.id_item_2, DetailedSongActivity.class);
+        setupClickListener(R.id.id_item_3, DetailedSongActivity.class);
+        setupClickListener(R.id.id_item_4, DetailedSongActivity.class);
+        setupClickListener(R.id.id_item_5, DetailedSongActivity.class);
+        setupClickListener(R.id.id_item_6, DetailedSongActivity.class);
 
         // Buttons
         setupClickListener(R.id.id_button_return, MainActivity.class);
-        setupClickListener(R.id.id_button_search, MusicFinderActivity.class);
+        setupClickListener(R.id.id_button_search, RandomSongFinderActivity.class);
     }
 
     private void setupClickListener(int id, final Class<? extends Activity> clazz) {

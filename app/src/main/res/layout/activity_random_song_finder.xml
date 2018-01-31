@@ -4,20 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.android.musicapp.MusicFinderActivity">
+    tools:context="com.example.android.musicapp.RandomSongFinderActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:text="This activity will display the Music searched after pressing the big button on main activity.
-        \nIt will also be possible to input music, artist or band names to improve the search system"
+        android:text="@string/string_random_song_finder_activity_description"
         android:textSize="15sp" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/color_line"></View>
+        android:background="@color/color_line"/>
 
     <TextView
         android:layout_width="match_parent"

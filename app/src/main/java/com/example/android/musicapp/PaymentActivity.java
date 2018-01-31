@@ -26,7 +26,7 @@ public class PaymentActivity extends AppCompatActivity {
 
         // Buttons
         setupClickListener(R.id.id_button_return, MainActivity.class);
-        setupClickListener(R.id.id_button_search, MusicFinderActivity.class);
+        setupClickListener(R.id.id_button_search, RandomSongFinderActivity.class);
     }
 
     private void setupClickListener(int id, final Class<? extends Activity> clazz) {
