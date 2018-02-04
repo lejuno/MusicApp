@@ -2,8 +2,8 @@ package com.example.android.musicapp;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 public class MySongsActivity extends AppCompatActivity {
@@ -22,14 +22,12 @@ public class MySongsActivity extends AppCompatActivity {
         setupClickListener(R.id.id_item_6, DetailedSongActivity.class);
 
         // Should Send Action to Play View with specific Song Names
-        setupClickListener(R.id.id_play_item_1, DetailedSongActivity.class);
-        setupClickListener(R.id.id_play_item_2, DetailedSongActivity.class);
-        setupClickListener(R.id.id_play_item_3, DetailedSongActivity.class);
-        setupClickListener(R.id.id_play_item_4, DetailedSongActivity.class);
-        setupClickListener(R.id.id_play_item_5, DetailedSongActivity.class);
-        setupClickListener(R.id.id_play_item_6, DetailedSongActivity.class);
-
-
+        setupClickListener(R.id.id_play_item_1, PlayerActivity.class);
+        setupClickListener(R.id.id_play_item_2, PlayerActivity.class);
+        setupClickListener(R.id.id_play_item_3, PlayerActivity.class);
+        setupClickListener(R.id.id_play_item_4, PlayerActivity.class);
+        setupClickListener(R.id.id_play_item_5, PlayerActivity.class);
+        setupClickListener(R.id.id_play_item_6, PlayerActivity.class);
 
         // Buttons
         setupClickListener(R.id.id_button_return, MainActivity.class);

@@ -22,9 +22,6 @@ public class MainActivity extends AppCompatActivity {
         // Top Hits
         setupClickListener(R.id.id_tx_top_hits, TopHitsActivity.class);
 
-        // HistoryActivity
-        setupClickListener(R.id.id_tx_history, HistoryActivity.class);
-
         // PaymentActivity
         setupClickListener(R.id.id_tx_payment, PaymentActivity.class);
     }

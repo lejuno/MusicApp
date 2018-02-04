@@ -42,12 +42,6 @@
             android:text="@string/activity_top_hits" />
 
         <TextView
-            android:id="@+id/id_tx_history"
-            style="@style/StyleCategoryItem"
-            android:background="@color/color_category_history"
-            android:text="@string/activity_history" />
-
-        <TextView
             android:id="@+id/id_tx_payment"
             style="@style/StyleCategoryItem"
             android:background="@color/color_category_payment"

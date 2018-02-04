@@ -20,7 +20,7 @@
     </style>
 
     <style name="StyleMySongItem">
-        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">75dp</item>
         <item name="android:textSize">20sp</item>
         <item name="android:gravity">center_vertical</item>
@@ -28,15 +28,6 @@
         <item name="android:textColor">@android:color/white</item>
         <item name="android:layout_alignParentLeft">true</item>
         <item name="android:layout_alignParentTop">true</item>
-    </style>
-
-    <style name="StyleHistoryItem">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">75dp</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:padding">8dp</item>
-        <item name="android:textColor">@android:color/white</item>
     </style>
 
     <style name="StyleTopHitsItem">
@@ -57,4 +48,18 @@
         <item name="android:text">@string/string_play</item>
     </style>
 
+    <style name="StyleBuyButton">
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:text">@string/string_buy</item>
+    </style>
+
+    <style name="StylePlayerButtons" parent="@android:style/Widget.Holo.Button.Borderless">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
 </resources>

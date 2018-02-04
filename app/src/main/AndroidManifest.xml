@@ -25,10 +25,6 @@
             android:label="@string/activity_player"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".HistoryActivity"
-            android:label="@string/activity_history"
-            android:parentActivityName=".MainActivity" />
-        <activity
             android:name=".TopHitsActivity"
             android:label="@string/activity_top_hits"
             android:parentActivityName=".MainActivity" />
@@ -44,7 +40,6 @@
             android:name=".DetailedSongActivity"
             android:label="@string/activity_detailed_song"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".PlayerActivity"></activity>
     </application>
 
 </manifest>

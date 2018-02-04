@@ -21,6 +21,8 @@ public class PaymentActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(PaymentActivity.this, "Purchase Complete", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent (PaymentActivity.this, PlayerActivity.class);
+                startActivity(intent);
             }
         });
 

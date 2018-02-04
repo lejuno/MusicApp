@@ -14,12 +14,8 @@
     <!-- Background color for the top hits category -->
     <color name="color_category_top_hits">#FD8E09</color>
 
-    <!-- Background color for the history  category -->
-    <color name="color_category_history">#379237</color>
-
     <!-- Background color for the payment category -->
     <color name="color_category_payment">#8800A0</color>
-
 
     <!-- Background color for the item 1 -->
     <color name="color_list_item_1">#FD8E09</color>

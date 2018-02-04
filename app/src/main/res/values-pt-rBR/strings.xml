@@ -2,7 +2,6 @@
 <resources>
     <string name="app_name">Alakazan</string>
     <string name="activity_music_search">Pesquisa de Música</string>
-    <string name="activity_history">Histórico</string>
     <string name="activity_payment">Pagamento</string>
     <string name="string_button_Search">Vamos a procura!</string>
     <string name="activity_detailed_song">Detalhes da música</string>
@@ -22,4 +21,5 @@
     <string name="activity_my_songs">Minhas Músicas</string>
     <string name="string_play">Tocar</string>
     <string name="activity_player">Tocando</string>
+    <string name="string_current_playing">Tocando agora:</string>
 </resources>

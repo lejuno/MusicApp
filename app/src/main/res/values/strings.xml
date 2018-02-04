@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">Alakazan</string>
     <string name="activity_music_search">Music Finder</string>
-    <string name="activity_history">History</string>
     <string name="activity_payment">Payment</string>
     <string name="activity_top_hits">Top Hits</string>
     <string name="string_button_Search">Let´s search!</string>
@@ -22,11 +21,11 @@
     <string name="string_return">Return</string>
     <string name="string_detail">Details</string>
     <string name="string_search">Search</string>
-    <string name="string_history_2" translatable="false">Let it Go</string>
-    <string name="string_history_3" translatable="false">What Makes You Beautiful</string>
-    <string name="string_history_4" translatable="false">All of Me</string>
-    <string name="string_history_5" translatable="false">Hello</string>
-    <string name="string_history_6" translatable="false">Kiss Me</string>
+    <string name="string_song_2" translatable="false">Let it Go</string>
+    <string name="string_song_3" translatable="false">What Makes You Beautiful</string>
+    <string name="string_song_4" translatable="false">All of Me</string>
+    <string name="string_song_5" translatable="false">Hello</string>
+    <string name="string_song_6" translatable="false">Kiss Me</string>
     <string name="string_top_1" translatable="false">Havana</string>
     <string name="string_top_2" translatable="false">Rockstar</string>
     <string name="string_top_3" translatable="false">River</string>
@@ -38,10 +37,11 @@
     <string name="string_my_songs_activity_description" translatable="false">This activity will hold list of purchased songs and play according to user´s action.</string>
     <string name="string_detailed_song_activity_description" translatable="false">"This activity will play a Random Song which is not purchased by the user..         \\nThe random song will be selected from preferences set by the user as preferred singer, band, style, etc. Through a configuration menu (not implemented yet).                      "</string>
     <string name="string_payment_activity_description" translatable="false">This activity will handle a premium account where users after searching the song desired can buy the song on available market.         \\nI found the Play Billing Library which is already integrated with Play Store and give plenty of useful features:         \\n    Be connected to Google Play         \\n    Can retrieve existing purchases and subscriptions         \\n    Has lots of examples of usage.</string>
-    <string name="string_history_activity_description" translatable="false">This activity will display the list of musics already found by this application.</string>
     <string name="string_top_hits_activity_description" translatable="false">This activity will display the top hits of the moments based on a list of most popular songs.</string>
     <string name="string_main_activity_description" translatable="false">This is the main activity where all menus will be listed and the application introduction will be shown.</string>
     <string name="string_random_song_finder_activity_description" translatable="false">This activity will display the Music searched after pressing the big button on main activity.         \\nIt will also be possible to input music, artist or band names to improve the search system</string>
     <string name="string_play">Play</string>
     <string name="activity_player">Player</string>
+    <string name="string_player_activity_description" translatable="false">This activity is responsible to play songs based on purchased items. User can play next song, previous song, random, etc.</string>
+    <string name="string_current_playing">Current playing:</string>
 </resources>
