@@ -20,4 +20,6 @@
     <string name="string_search">Pesquisar</string>
     <string name="activity_top_hits">Top Hits</string>
     <string name="activity_my_songs">Minhas Músicas</string>
+    <string name="string_play">Tocar</string>
+    <string name="activity_player">Tocando</string>
 </resources>

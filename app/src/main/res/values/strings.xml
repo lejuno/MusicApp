@@ -42,4 +42,6 @@
     <string name="string_top_hits_activity_description" translatable="false">This activity will display the top hits of the moments based on a list of most popular songs.</string>
     <string name="string_main_activity_description" translatable="false">This is the main activity where all menus will be listed and the application introduction will be shown.</string>
     <string name="string_random_song_finder_activity_description" translatable="false">This activity will display the Music searched after pressing the big button on main activity.         \\nIt will also be possible to input music, artist or band names to improve the search system</string>
+    <string name="string_play">Play</string>
+    <string name="activity_player">Player</string>
 </resources>

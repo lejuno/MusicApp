@@ -21,6 +21,10 @@
             android:label="@string/activity_my_songs"
             android:parentActivityName=".MainActivity" />
         <activity
+            android:name=".PlayerActivity"
+            android:label="@string/activity_player"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".HistoryActivity"
             android:label="@string/activity_history"
             android:parentActivityName=".MainActivity" />
@@ -40,6 +44,7 @@
             android:name=".DetailedSongActivity"
             android:label="@string/activity_detailed_song"
             android:parentActivityName=".MainActivity" />
+        <activity android:name=".PlayerActivity"></activity>
     </application>
 
 </manifest>
